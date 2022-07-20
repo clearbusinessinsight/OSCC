@@ -27,7 +27,7 @@ body {
 
 /* Specific to the "seo" class within the "header" class */
 .header h1 .seo {
-    color: beige;
+    color: #ffffff;
 }
 
 /* Specific to the "nav" element within the "header" class */
@@ -37,12 +37,13 @@ body {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    list-style-type: none;
     }
 
 /* Specific to the "ul" element within the "header" class */
-.header nav ul {
+/*.header nav ul {
     list-style-type: none;
-}
+}*/
 
 /* Specific to the "li" element within the "ul" element within the "header" class */
 .header nav ul li {
@@ -103,7 +104,7 @@ p {
 }
 
 /* This class formats the text for Lead Generation */
-.benefit-lead {
+.benefit-lead .benefit-brand .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
     margin-bottom: 10px;
@@ -111,20 +112,20 @@ p {
     }
 
 /* This class formats the text for Brand Awareness */
-.benefit-brand {
+/*.benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
     margin-bottom: 10px;
     text-align: center;
-}
+}*/
 
 /* This class formats the text for Cost Management */
-.benefit-cost {
+/*.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
     margin-bottom: 10px;
     text-align: center;
-}
+}*/
 
 /* This class formats the h3 text for the lead benefit 
 .benefit-lead h3 {
